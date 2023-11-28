@@ -10,9 +10,9 @@
     padding: .5rem 1rem;
     border-radius: 4px;
     text-transform: uppercase;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-weight: bold;
-    color: #fff;
+    color: white;
     cursor: pointer;
     margin: 10px;
     align-items: center;
@@ -22,11 +22,11 @@
   
   .js [data-menu="button"]::before {
     margin-right: 4px;
-    content: '';
+    content: "";
     display: inline-block;
     height: 2px;
     width: 12px;
-    background: #fff;
+    background: white;
     box-shadow: 0 4px #fff, 0 -4px #fff;
     transition: transform .3s;
   }
@@ -41,14 +41,16 @@
     background: #FB5;
     width: 160px;
     z-index: 200;
-    top: 0;
     padding: 60px 0 20px 0;
+    top: 0;
     box-shadow: 2px 2px 2px 0 rgba(0,0,0,.2);
   }
+
   .js [data-menu="list"].active {
     display: block;
     animation: show-right .3s forwards;
   }
+
   .js .dropdown-menu {
     position: static;
     border: none;
