@@ -17,4 +17,4 @@ export default function initAccordion() {
   }
 }
 
-console.log("teste 1234567")
+console.log("teste 123")
