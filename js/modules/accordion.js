@@ -25,5 +25,3 @@ export default class Accordion {
     }
   }
 }
-
-console.log("teste 123")
