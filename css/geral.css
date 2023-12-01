@@ -270,12 +270,20 @@ body {
 }
 
 [data-anime='accordion'] dt::after {
-  content: "↴";
+  content: "";
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url("../img/arrow-red.svg") no-repeat center center;
+  transform: rotate(90deg);
   margin-left: 10px;
+  transition: .3s;
 }
 
 [data-anime='accordion'] dt.ativo::after {
-  content: "↰";
+  content: "";
+  background: url("../img/arrow-red.svg") no-repeat center center;
+  transform: rotate(-90deg);
 }
 
 @keyframes slideDown {
@@ -321,4 +329,11 @@ body {
   padding: .2rem .5rem;
   font-weight: bold;
   border-radius: 4px;
+}
+
+.arrow-black {
+  background: url("../img/arrow-black.svg") no-repeat center center;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
 }
