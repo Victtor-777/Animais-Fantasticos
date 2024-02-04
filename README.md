@@ -13,7 +13,7 @@ Projeto em que pratiquei todos os principais conceitos e a base do JavaScript co
 - [x] Possui "Scroll Suave", ao clicar no menu é direcionado a sessão suavemente;
 - [x] O site possui modal, tooltip, accordions e números animados;
 - [x] Possui um slide fluido, que funciona com o mouse ou touch;
-- [ ] Possui uma requisição a API, para verificar se o local está aberto ou fechado, e para pegar o valor de bitcoin atualizado(para doações);
+- [x] Possui uma requisição a API, para verificar se o local está aberto ou fechado, e para pegar o valor de bitcoin atualizado(para doações);
 
 ## 🚀 Tecnologias
 
